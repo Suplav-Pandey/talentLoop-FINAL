@@ -101,13 +101,13 @@ const ProfileForm = ({
         <div className="form-group">
           <select name="status" value={status} onChange={onChange}>
             <option>* Select Professional Status</option>
-            <option value="Developer">Developer</option>
-            <option value="Junior Developer">Junior Developer</option>
-            <option value="Senior Developer">Senior Developer</option>
-            <option value="Manager">Manager</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="DevOps Engineer">DevOps Engineer</option>
+            <option value="Technical Architect">Technical Architect</option>
+            <option value="UI/UX Designer">UI/UX Designer</option>
             <option value="Student or Learning">Student or Learning</option>
             <option value="Instructor">Instructor or Teacher</option>
-            <option value="Intern">Intern</option>
+            <option value="Freelancer">Freelancer</option>
             <option value="Other">Other</option>
           </select>
           <small className="form-text">
